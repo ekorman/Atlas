@@ -11,8 +11,6 @@ from sklearn.preprocessing import MinMaxScaler
 
 sigma = 1.
 
-# no reason why the two hidden layers have to be of the same dimension
-
 class Atlas(object):
     '''
     d = dimension of the charts (i.e. intrinsic dimension of the manifold)
